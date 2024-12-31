@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Custom CSS Theme",
+  "name": "Gitea Gruvbox Theme",
   "version": "1.0",
-  "description": "Applies a custom CSS theme to specific domains.",
+  "description": "Applies a custom CSS theme to Gitea instance",
   "permissions": [],
   "content_scripts": [
     {
@@ -16,5 +16,10 @@
       "resources": ["theme.css"],
       "matches": ["https://gitea.com/*"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
 }
