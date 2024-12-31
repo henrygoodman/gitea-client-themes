@@ -8,7 +8,7 @@ This browser extension applies a custom Gruvbox-inspired theme to your Gitea ins
 
 ## Installation
 
-- Clone this repository or download the .zip file.
+- Clone this repository
 - Open your browser's extensions page:
   - Firefox: Navigate to about:debugging#/runtime/this-firefox.
 - Click "Load Temporary Add-on" (or equivalent for your browser).
