@@ -10,14 +10,14 @@ This browser extension applies a custom Gruvbox-inspired theme to your Gitea ins
 
 - Clone this repository
 - Open your browser's extensions page:
-  - Firefox: Navigate to about:debugging#/runtime/this-firefox.
+  - Firefox: Navigate to `about:debugging#/runtime/this-firefox`.
 - Click "Load Temporary Add-on" (or equivalent for your browser).
 - Select the manifest.json file from the extension folder.
 
 ## Usage
 
 - Ensure the extension is enabled.
-- Visit any Gitea instance (e.g., https://gitea.com).
+- Visit any Gitea instance (e.g., `https://gitea.com`).
 - If prompted by the browser to allow the extension to run on the site:
   - Firefox: Click the extension icon in the toolbar and select "Always Allow" for the current site.
 - Reload the Gitea page, and the Gruvbox theme will be applied automatically.
